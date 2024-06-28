@@ -9,11 +9,11 @@ The home keys are CRST on the left hand, AEUI on the right hand, and N on one of
 ## Combos
 ![Crescent Info](crescent-info.png)
 
-Crescent has both two-key combos and three-key combos. The two-key combos consist of all 26 letters, all punctuation, backspace, enter, tab, and a few common symbols. These combos formed the bulk of the work to minimize sfbs when typing English texts.
+Crescent has both two-key combos and three-key combos. The two-key combos consist of all 26 letters, all punctuation, backspace, enter, tab, and a few common symbols. These combos formed the bulk of the work to minimize sfbs down to just 1% when typing English texts.
 
 Crescent also has a number of three-key combos, which contain less frequent symbols, function keys, and modifiers. You can navigate using vim-like arrow keys, type numbers and numeric operators, and use modifiers like ctrl, shift, alt, and super.
 
-The chart above describes how to type both two-key and three key combos. For two-key combos, pick a letter, and look to the left and down. The two blue keys are the two keys that are pressed simultaneously to output that letter. The three-key combos follow a pattern of two blue keys on one hand, and one white key on the other hand. 
+The chart above describes how to type both two-key and three key combos. For two-key combos, pick a letter, and look both to the left and down. The two blue keys are the two keys that are pressed simultaneously to output that letter. The three-key combos follow a pattern of two blue keys on one hand, and one white key on the other hand. 
 
 ## Installation
 Currently there is no file for this layout. I am currently working on creating one in Kanata.
