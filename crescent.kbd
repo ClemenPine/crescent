@@ -131,4 +131,17 @@
     (e u r) @alt
     (e u s) @shift
     (e u t) @met
+    
+    (e u c r) (multi @ctrl @alt)
+    (e u c s) (multi @ctrl @shift)
+    (e u c t) (multi @ctrl @met)
+    (e u r s) (multi @alt @shift)
+    (e u r t) (multi @alt @met)
+    
+    (e u c r s) (multi @ctrl @alt @shift)
+    (e u c r t) (multi @ctrl @alt @met)
+    (e u c s t) (multi @ctrl @shift @met)
+    (e u r s t) (multi @alt @shift @met)
+    
+    (e u c r s t) (multi @ctrl @alt @shift @met)
 )
