@@ -1,0 +1,134 @@
+(defsrc
+    q  w  e  r  t  y  u  i  o  p  [  ]
+    a  s  d  f  g  h  j  k  l  ;  '  ret
+    z  x  c  v  b  n  m  ,  .  /  
+    ralt 
+)
+
+(deflayer crescent
+    _  @c @r @s @t _  _  _  @a @e @u @i
+    _  @c @r @s @t _  _  _  @a @e @u @i
+    _  _  _  _  _  _  _  _  _  _
+    @n
+)
+
+(defvar
+    timeout-oneshot 500
+    timeout-chord 50
+)
+
+(defalias
+    c (chord crescent c)
+    r (chord crescent r)
+    s (chord crescent s)
+    t (chord crescent t)
+    
+    n (chord crescent n) 
+    
+    a (chord crescent a)
+    e (chord crescent e)
+    u (chord crescent u)
+    i (chord crescent i)
+    
+    ctrl (one-shot $timeout-oneshot lctrl)
+    alt (one-shot $timeout-oneshot lalt)
+    shift (one-shot $timeout-oneshot lshift)
+    met (one-shot $timeout-oneshot lmet) 
+)
+
+(defchords crescent $timeout-chord
+    (c) c
+    (r) r
+    (s) s
+    (t) t
+    (n) n
+    (a) a
+    (e) e
+    (u) u
+    (i) i
+    
+    (c r) w
+    (c s) f
+    (c t) g
+    (c n) q
+    (c a) '
+    (c e) S-3
+    (c u) y
+    (c i) p
+    
+    (r s) x
+    (r t) j
+    (r n) l
+    (r a) S-1
+    (r e) S-2
+    (r u) _
+    (r i) ,
+    
+    (s t) d
+    (s n) z
+    (s a) `
+    (s e) bspc
+    (s u) v
+    (s i) b
+    
+    (t n) m
+    (t a) ret
+    (t e) tab
+    (t u) k
+    (t i) /
+    
+    (n a) S-9
+    (n e) S-0
+    (n u) h
+    (n i) S-/
+    
+    (a e) o
+    (a u) -
+    (a i) .
+    
+    (e u) S-'
+    (e i) S-;
+    
+    (u i) ;
+    
+    (r s n) S-7
+    (r s a) left
+    (r s e) down
+    (r s u) up
+    (r s i) right
+    
+    (s t n) S-]
+    (s t a) 7
+    (s t e) 8
+    (s t u) 9
+    (s t i) S-4
+    
+    (r t n) S-`
+    (r t a) 4
+    (r t e) 5
+    (r t u) 6
+    (r t i) S-5
+    
+    (c t n) S-[
+    (c t a) 1
+    (c t e) 2
+    (c t u) 3
+    (c t i) 0
+    
+    (c r n) S-\
+    (c r a) S-8
+    (c r e) S-=
+    (c r u) S-,
+    (c r i) S-.
+    
+    (c s n) \
+    (c s a) S-6
+    (c s e) =
+    (c s u) [
+    (c s i) ]
+    
+    (e u c) @ctrl
+    (e u r) @alt
+    (e u s) @shift
+    (e u t) @met
+)
