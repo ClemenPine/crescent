@@ -16,7 +16,13 @@ Crescent also has a number of three-key combos, which contain less frequent symb
 The chart above describes how to type both two-key and three key combos. For two-key combos, pick a letter, and look both to the left and down. The two blue keys are the two keys that are pressed simultaneously to output that letter. The three-key combos follow a pattern of two blue keys on one hand, and one white key on the other hand. 
 
 ## Installation
-Currently there is no file for this layout. I am currently working on creating one in Kanata.
+You'll need to install [kanata](https://github.com/jtroo/kanata), then download the [crescent.kbd](crescent.kbd) file from this repo. Put both kanata and crescent into the same folder, cd into that folder, and run the following command:
+
+```
+$ sudo kanata -c crescent.kbd`
+```
+
+Closing the terminal will exit kanata and restore your keyboard to its default state. You can [set up a systemd process](https://github.com/jtroo/kanata/discussions/130) to make it permanent.
 
 ## Special Thanks
 - [Eve](https://github.com/Apsu), for providing inspiration for this project
