@@ -22,6 +22,8 @@ You'll need to install [kanata](https://github.com/jtroo/kanata), then download 
 $ sudo kanata -c crescent.kbd`
 ```
 
+If you don't want to use sudo, see [here](https://github.com/jtroo/kanata/wiki/Avoid-using-sudo-on-Linux).
+
 Closing the terminal will exit kanata and restore your keyboard to its default state. You can [set up a systemd process](https://github.com/jtroo/kanata/discussions/130) to make it permanent.
 
 ## Special Thanks
